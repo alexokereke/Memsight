@@ -1,0 +1,12 @@
+# Generated simulation projects
+/build/
+
+# Vivado temporary files
+.Xil/
+*.jou
+*.log
+*.str
+
+# Windows folder settings
+desktop.ini
+Thumbs.db
