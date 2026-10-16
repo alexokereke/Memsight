@@ -143,3 +143,21 @@ Expected result:
 Accepted=516 Completed=515 Canceled=1
 ALL TESTS PASSED
 ```
+## Synthesis results
+
+Synthesized with Vivado 2024.2 for the Artix-7 xc7a35tcpg236-1.
+
+| Resource | Used | Utilization |
+|---|---:|---:|
+| Slice LUTs | 20 | 0.10% |
+| Flip-flops | 77 | 0.19% |
+| 18 Kb Block RAM | 1 | 1.00% |
+| DSPs | 0 | 0.00% |
+
+No latches or black boxes were reported. The memory maps to one
+RAMB18E1 block.
+
+These are synthesis results; implementation timing and operation
+on the FPGA board have not yet been verified.
+
+[Full utilization report](docs/synthesis_utilization.rpt)
